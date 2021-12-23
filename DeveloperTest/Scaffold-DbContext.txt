@@ -1,0 +1,4 @@
+﻿Use this in Package Manager Console to update DatabaseLayer
+
+   Scaffold-DbContext -Connection "Server=.;Database=DeveloperTest;Trusted_Connection=True;" -Provider "Microsoft.EntityFrameworkCore.SqlServer" -OutputDir "DatabaseLayer" -Context "DeveloperTestDbContext"  -Force 
+
